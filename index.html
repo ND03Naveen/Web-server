@@ -1,11 +1,21 @@
-<!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+	<header>
+		<style>
+		p{
+		color:blue;	
+		}
+		</style>
+		<title>test</title>
+	</header>
+	
+	<body id="lp">
+		<p>Bharathi</p>
+		<button onclick="changeBg()">click</button>
 
-<h1>Hellow world &hearts;</h1>
-
-</body>
+		<script>
+			function changeBg(){
+				document.getElementById("lp").style["background-color"] = "green";
+			}
+		</script>
+	</body>
 </html>
